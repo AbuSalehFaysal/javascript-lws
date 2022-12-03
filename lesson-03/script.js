@@ -5,6 +5,8 @@ document.getElementById("demo").innerHTML = "Hello World!";
 
 // Use semicolon after the end of a statement
 
+// try to use separate line for each statement
+
 // JS ignores multiple spaces
 
 // Use spaces around operator(+,-,*,/) - Good Practice
