@@ -14,4 +14,4 @@
 
 // 6. Undefined data types (Empty and undefined are not the same)
 
-// 7. While working with string and number, string will get more priority.
+// While working with string and number, string will get more priority.
