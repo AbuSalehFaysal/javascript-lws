@@ -15,3 +15,5 @@
 // 6. Undefined data types (Empty and undefined are not the same)
 
 // While working with string and number, string will get more priority.
+
+// js evaluates any expression from left to right.
