@@ -1,6 +1,6 @@
 // JS Data Types
 
-// js has dynamic types
+// js has dynamic types - can store different types of data in a single variable
 
 // 1. String Data Types (Single quote inside double quote, double quote inside single quote) --- "Abu Saleh Faysal", "Abeer"
 
