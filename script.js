@@ -13,4 +13,6 @@ sleep("faysal", "10 PM");
 
 // inside the functions the arguments(the parameters) behave as local variables.
 
-// the code inside the function will only occure when something invokes(call) the function.
+// the code inside the function will only occurs when something invokes(call) the function.
+
+// return is the last statement of a function, nothing will happen after the return statement.
