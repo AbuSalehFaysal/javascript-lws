@@ -71,3 +71,6 @@ console.log(name[0]); // returns "A"
 
 let split = "Faysal";
 let splitArray = split.split(""); // returns ["F", "a", "y", "s", "a", "l"]
+
+let helloWorld = "Hello World!";
+let splitHW = helloWorld.split(" "); // returns ["Hello", "World!"]
