@@ -4,6 +4,7 @@
 
 let str = "Hello World World";
 str.indexOf("World"); // returns 6
+str.indexOf("Worlds"); // returns -1, because it didn't find the match.
 
 // indexOf is case sensitive
 
@@ -18,7 +19,7 @@ str.search("World"); // returns 6
 
 // match
 
-str.match(/rld/g) // returns ["rld", "rld"]
+str.match(/rld/g); // returns ["rld", "rld"]
 
 // includes
 
