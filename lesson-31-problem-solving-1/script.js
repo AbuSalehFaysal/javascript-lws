@@ -25,5 +25,27 @@ rollNumers.sort((a, b) => {
 const leapYearChecker = (year) => {
   if (year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0)) {
     return true;
+  } else {
+    return false;
   }
 }; // return true if leap year.
+
+// vowel counter
+const vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+const sentence = "My name is Abu Saleh Faysal";
+const vowelCounter = (sentence) => {
+  let count = 0;
+  const arr = Array.from(sentence);
+  arr.forEach((value) => {
+    if (vowels.includes(value)) {
+      count++;
+    }
+  });
+  return count;
+}; // return total number of vowel.
+
+// find duplicate number from an array
+const duplicateNumberArray = [1, 4, 5, 5, 7, 6, 10, 1, 9, 10, 4];
+const duplicates = duplicateNumberArray.filter((value, index, arr) => {
+  return arr.indexOf(value) !== index;
+});
