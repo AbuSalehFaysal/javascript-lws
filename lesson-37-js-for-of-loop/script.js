@@ -8,3 +8,6 @@ for (let n of name) {
   // of returns the value
   console.log(n); // F, a, y, s, a, l
 }
+
+// we should use for in for objects
+// we should use for of for arrays
